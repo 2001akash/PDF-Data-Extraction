@@ -1,0 +1,15 @@
+<!-- pdf_processor/templates/pdf_processor/result.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extracted Data</title>
+</head>
+<body>
+    <h2>Extracted Data</h2>
+    <ul>
+        {% for key, value in data %}
+            <li>{{ key }}: {{ value }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
